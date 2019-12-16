@@ -33,10 +33,12 @@ Version:1.0
 
 ## 例程:
 
+```
+
 ...  
 
 //下载结果回调函数  
-```
+
 void down_cb(struct down_task *task, int ret)  
 {  
 	if (ret == 0)  
